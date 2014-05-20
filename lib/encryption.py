@@ -17,3 +17,6 @@ def encrypt(cleartext, offset):
             new_pos = alphabet.index(char) + offset
             output += alphabet[new_pos]
     return output.upper()
+
+def encrypt(cleartext, offset):
+    return encrypt(cleartext, offset).lower()
